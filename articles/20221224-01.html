@@ -1,0 +1,37 @@
+<p>Well, I've started blogging again.</p>
+
+<p>At risk of dating myself, it was about twenty years ago that I started cutting my teeth on web development.  It was a completely different scene back then.  You could rely on carefully crafted HTML and images to render consistently, and that was about it.  &quot;Dynamic HTML&quot; (read: JavaScript and CSS) existed, but these technologies were in their infancy, and it was easy to cut yourself on a rough edge, like the mixed bag of browser support.</p>
+
+<p>It was around this time that I created a blog for myself.  Shared virtual hosting was the cheapest option at the time, and I was trying to learn PHP and MySQL at the time, so the LAMP stack was a natural choice.  The barrier to entry was low because the server setup was effectively done for me, and all I had to do was create the database and upload the PHP scripts.</p>
+
+<p>I backed up this code to CD before I took it offline in the mid-2000s, promptly forgot about it, and then rediscovered it a short while back.  There were a few parts that were cringeworthy, but overall I think it held up pretty well.</p>
+
+<p>Aesthetically, it was reminiscent of the <a href="https://www.apple.com/">Apple.com website back in the Aqua days</a>, but I gave it a plastic look instead of liquid.  I accomplished this with carefully crafted images and a zero-border table for layout.  I remember thinking this looked really cool at the time, but now I'm not so sure.</p>
+
+<p>As for the code, it was written from scratch.  I built a web administration interface to manage posts, and an authentication system to protect sensitive posts.  I think it could have competed with WordPress at the time, but it was a personal project, and it didn't even cross my mind that others would want to use it.</p>
+
+<p>However, there were some parts that did not age well at all.  Passwords stored as MD5 hashes with no salt?  This would never fly nowadays.  Perhaps one positive takeaway is that I've learned a lot in the past 20 years.</p>
+
+<p>Now that I'm blogging again, I'm doing things a little bit different this time.</p>
+
+<p>First, I'm writing this blog on an iBook G4.  It reminds me a lot of the eBook I was using two decades ago, though the maxed out memory and slightly better processor make the experience somewhat speedier.</p>
+
+<p>Second, I'm using PHP to generate static pages.  Why?  Fewer vulnerabilities to worry about, and I can use free static site hosting on GitHub.</p>
+
+<p>Good ol' <span class="code code-identifier">make</span> coordinates the build.  It's a simple system: PHP scripts are executed, and the output is piped to HTML files.</p>
+
+<p>Third, I've opted to store all data in human-editable files.  I think a database would add significant operational overhead for little gain.  I'm using HTML files to store the article content, and JSON files to store the article metadata, both of which I edit by hand.  The only downside I've found so far is the lack of sorting, which I work around by sorting the list of articles when it's loaded.  So far, I haven't noticed a significant performance hit.</p>
+
+<p>This system is far from perfect, but it's lightweight, and can be adapted fairly easily should the need arise.  I'm happy with where it's at for now.</p>
+
+<p>Why have I started blogging again?</p>
+
+<p>One of the things I enjoyed about my previous blog was that it was a safe space for me to vent about anything and everything I wanted to write about.  I didn't think about the consequences because the internet was a very different place back then.  I really miss that freedom.</p>
+
+<p>However, I'm not that young, na&iuml;ve person anymore, and the internet has become much more hostile, and is much better at remembering things.  Will I be able to post freely?  No.</p>
+
+<p>Will I be able to <em>write</em> freely?  Maybe.  I haven't figured out if that's something I want to do yet.</p>
+
+<p>I want to share some of my adventures with the world, so that's where I'm starting.</p>
+
+
